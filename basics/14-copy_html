@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u update /tmp/file_0.html /tmp/file_1.html /tmp/file_2.html
+cp -r update /tmp/file_0.html /tmp/file_1.html /tmp/file_2.html

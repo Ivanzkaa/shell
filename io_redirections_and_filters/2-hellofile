@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "cat pg /etc/passwd"
+echo "cat -pg /etc/passwd"

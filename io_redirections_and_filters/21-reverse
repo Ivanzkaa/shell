@@ -1,2 +1,2 @@
 #!/bin/bash
-tr {z..a} 
+tr {z..a} rev

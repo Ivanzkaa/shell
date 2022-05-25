@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ELIZABETH | base64 --decode
+echo 'ELIZABETH' | base64 --decode

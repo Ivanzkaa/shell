@@ -1,2 +1,2 @@
 #!/bin/bash
-base64 ELIZABETH | --decode
+ELIZABETH | base64 --decode

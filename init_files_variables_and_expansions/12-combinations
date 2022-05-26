@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {aa..z}; do echo $i; done
+for i in {aa..z}; do echo $i done

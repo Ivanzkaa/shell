@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z} | tr '\n' | tr -d 'oo' | {aa} | tail -64 | head -1
+echo {aa..z} | tr '\n' | tr -d '*oo' | tail -64 | head -1

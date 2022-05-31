@@ -1,0 +1,17 @@
+#!/user/bin/env bash
+#gonna overwrit some lines
+i=1
+while [ "$1" -eq 10 ]
+do 
+echo "Best School"
+if [[ "$i" -eq 4 ]]; then 
+echo $"bad luck"
+else "bad luck"
+fi
+((i++))
+if [[ "$i" -eq 8 ]]; then
+echo $"good luck"
+else "good luck"
+fi
+((i++))
+done

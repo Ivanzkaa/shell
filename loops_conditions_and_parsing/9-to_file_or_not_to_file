@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #making some stuff using if again
-name=school
 if [ -f "school" ]
 then
       echo "school file exist"

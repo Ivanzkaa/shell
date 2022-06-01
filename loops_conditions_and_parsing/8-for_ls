@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 #making a directory and list
-list="$ls"
+<<<<<<< HEAD
+
+=======
+
+list="$(ls)"
+>>>>>>> dc51bf0bbc31491bea28fcdeade722de948c6262
 for a in $list;
 do
 	echo "$a" | cut -d "-" -f 2

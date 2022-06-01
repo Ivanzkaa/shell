@@ -1,19 +1,15 @@
 #!/usr/bin/env bash
 #were multiplying now
 i=1
-while [ $i -le 100 ]
+while [ "$i" -le 101 ]
 do
-if [[ $((i/15*30)) -le 100 ]]
-then
-	echo $"FizzBuzz"
-fi
-if ${15}
-then 
-	echo $"Fizz"
-fi
-if ${30}
-then
-       	echo $"Buzz"
-fi
-((i**))
-done
+	if [[ $((i%15)) == 0 ]]; then 
+	       echo "FizzBuzz"
+       elif [[ $((i%3)) == 0 ]]; then 
+	       echo "Fizz"
+       elif [[ $((i%3)) == 0 ]]; then 
+	       echo "Buzz"
+	fi
+	i=$(($i+1))
+done	
+

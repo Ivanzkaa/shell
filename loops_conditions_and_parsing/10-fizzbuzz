@@ -11,5 +11,6 @@ do
 	       echo "Buzz"
 	fi
 	i=$(($i+1))
+	echo "$i"
 done	
 

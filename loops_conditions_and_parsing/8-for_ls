@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#making a directory and list
+list="$ls"
+for a in $list;
+do
+	echo "$a" | cut -d "-" -f 2
+done

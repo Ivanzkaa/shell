@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#read and cut
+FILENAME="/etc/passwd"
+while IFS=: read -r username password userid groupid homedir cmdshell
+do
+  echo "$username, $userid, $homedir"
+done < $FILENAME

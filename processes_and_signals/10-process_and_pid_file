@@ -2,8 +2,6 @@
 #
 sudo touch /var/run/myscript.pid
 bash -c 'echo "$$"' > /var/run/myscript.pid
-#DISPLAY I hate the kill command 2
-#DISPLAY Y U no love me 3
 trap 'echo "I hate the kill command"' SIGTERM
 trap 'echo "Y U no love me?!"' SIGINT
 while : 
